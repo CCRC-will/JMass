@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE residue_defs SYSTEM "residue_defs.dtd">
+
+<residue_defs>
+
+<!-- 
+	chemical compositions are for the anhydro-form (found in a polymer)
+	e_sites are the number of etherification sites for each monomer in a polymer 
+	a_sites are the number of acylation sites for each monomer in a polymer 
+-->
+
+	<monomer name='pentose' abbrev='Pent' e_sites='2' a_sites='2'>
+		<component symbol='H' number='8'/>
+		<component symbol='C' number='5'/>
+		<component symbol='O' number='4'/>
+	</monomer>
+
+	<monomer name='deoxyhexose' abbrev='dHex' e_sites='2' a_sites='2'>
+		<component symbol='H' number='10'/>
+		<component symbol='C' number='6'/>
+		<component symbol='O' number='4'/>
+	</monomer>
+
+	<monomer name='hexosamine' abbrev='HexN' e_sites='3' a_sites='3'>
+		<component symbol='H' number='11'/>
+		<component symbol='C' number='6'/>
+		<component symbol='N' number='1'/>
+		<component symbol='O' number='4'/>
+	</monomer>
+
+	<monomer name='hexose' abbrev='Hex' e_sites='3' a_sites='3'>
+		<component symbol='H' number='10'/>
+		<component symbol='C' number='6'/>
+		<component symbol='O' number='5'/>
+	</monomer>
+
+	<monomer name='*H2-hexose' abbrev='*H2-Hex' e_sites='3' a_sites='3'>
+		<component symbol='*H' number='2'/>
+		<component symbol='H' number='8'/>
+		<component symbol='C' number='6'/>
+		<component symbol='O' number='5'/>
+	</monomer>
+
+	<monomer name='hexuronic_acid' abbrev='HexA' e_sites='3' a_sites='2'>
+		<component symbol='H' number='8'/>
+		<component symbol='C' number='6'/>
+		<component symbol='O' number='6'/>
+	</monomer>
+
+	<monomer name='methyl_hexuronic_acid' abbrev='MeHexA' e_sites='2' a_sites='1'>
+		<component symbol='H' number='10'/>
+		<component symbol='C' number='7'/>
+		<component symbol='O' number='6'/>
+	</monomer>
+
+	<monomer name='unsaturated_hexuronic_acid' abbrev='UHexA' e_sites='2' a_sites='1'>
+		<component symbol='H' number='6'/>
+		<component symbol='C' number='6'/>
+		<component symbol='O' number='5'/>
+	</monomer>
+
+	<monomer name='heptose' abbrev='Hep' e_sites='4' a_sites='4'>
+		<component symbol='H' number='12'/>
+		<component symbol='C' number='7'/>
+		<component symbol='O' number='6'/>
+	</monomer>
+	
+	<monomer name='N-acetylhexosamine' abbrev='HexNAc' e_sites='3' a_sites='2'>
+		<component symbol='H' number='13'/>
+		<component symbol='C' number='8'/>
+		<component symbol='N' number='1'/>
+		<component symbol='O' number='5'/>
+	</monomer>
+
+	<monomer name='deoxy-octulosonic acid' abbrev='KDO' e_sites='3' a_sites='3'>
+		<component symbol='H' number='12'/>
+		<component symbol='C' number='8'/>
+		<component symbol='O' number='7'/>
+	</monomer>
+
+	<monomer name='muramic acid' abbrev='MurA' e_sites='3' a_sites='3'>
+		<component symbol='H' number='17'/>
+		<component symbol='C' number='11'/>
+		<component symbol='N' number='1'/>
+		<component symbol='O' number='7'/>
+	</monomer>
+	
+	<monomer name='N-acetyl-deoxy-nonulosonic acid' abbrev='NeuNAc' e_sites='5' a_sites='3'>
+		<component symbol='H' number='17'/>
+		<component symbol='C' number='11'/>
+		<component symbol='N' number='1'/>
+		<component symbol='O' number='8'/>
+	</monomer>
+	
+	<monomer name='N-glycolyl-deoxy-nonulosonic acid' abbrev='NeuNGc' e_sites='6' a_sites='4'>
+		<component symbol='H' number='17'/>
+		<component symbol='C' number='11'/>
+		<component symbol='N' number='1'/>
+		<component symbol='O' number='9'/>
+	</monomer>
+
+	<monomer name='*N-acetylhexosamine' abbrev='Hex*NAc' e_sites='3' a_sites='2'>
+		<component symbol='*N' number='1'/>
+		<component symbol='H' number='13'/>
+		<component symbol='C' number='8'/>
+		<component symbol='O' number='5'/>
+	</monomer>
+
+	<monomer name='*N-acetyl-deoxy-nonulosonic acid' abbrev='Neu*NAc' e_sites='5' a_sites='3'>
+		<component symbol='*N' number='1'/>
+		<component symbol='H' number='17'/>
+		<component symbol='C' number='11'/>
+		<component symbol='O' number='8'/>
+	</monomer>
+
+	<monomer name='*N-glycolyl-deoxy-nonulosonic acid' abbrev='Neu*NGc' e_sites='6' a_sites='4'>
+		<component symbol='*N' number='1'/>
+		<component symbol='H' number='17'/>
+		<component symbol='C' number='11'/>
+		<component symbol='O' number='9'/>
+	</monomer>
+
+	<monomer name='acetate' abbrev='Ac' e_sites='-1' a_sites='-1'>
+		<component symbol='H' number='2'/>
+		<component symbol='C' number='2'/>
+		<component symbol='O' number='1'/>
+	</monomer>
+
+	<derivative name='methyl' abbrev='Me'  type='e'>
+		<component symbol='H' number='3'/>
+		<component symbol='C' number='1'/>
+	</derivative>
+
+	<derivative name='*C3-methyl' abbrev='Mx' type='e'>
+		<component symbol='H' number='3'/>
+		<component symbol='*C' number='1'/>
+	</derivative>
+
+	<derivative name='*H1-methyl' abbrev='M1' type='e'>
+		<component symbol='*H' number='1'/>
+		<component symbol='H' number='2'/>
+		<component symbol='C' number='1'/>
+	</derivative>
+
+	<derivative name='*H3-methyl' abbrev='M3' type='e'>
+		<component symbol='*H' number='3'/>
+		<component symbol='C' number='1'/>
+	</derivative>
+
+	<derivative name='ethyl' abbrev='Et' type='e'>
+		<component symbol='H' number='5'/>
+		<component symbol='C' number='2'/>
+	</derivative>	 
+
+	<derivative name='acetyl' abbrev='Ac' type='a'>
+		<component symbol='H' number='3'/>
+		<component symbol='C' number='2'/>
+		<component symbol='O' number='1'/>
+	</derivative>
+	
+	<derivative name='*H3-acetyl' abbrev='A3' type='a'>
+		<component symbol='*H' number='3'/>
+		<component symbol='C' number='2'/>
+		<component symbol='O' number='1'/>
+	</derivative>
+	
+	<derivative name='propanoyl' abbrev='Pr' type='a'>
+		<component symbol='H' number='5'/>
+		<component symbol='C' number='3'/>
+		<component symbol='O' number='1'/>
+	</derivative>
+	</residue_defs>

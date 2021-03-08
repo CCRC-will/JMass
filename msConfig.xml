@@ -1,0 +1,15 @@
+<search_config tolerance = '10'>
+	<residue_list derivative='Me' end_structure='alditol'>
+		<monomer abbrev='Pent' minimum_number='0' maximum_number='5'/>
+		<monomer abbrev='dHex' minimum_number='0' maximum_number='2'/>
+		<monomer abbrev='Hex' minimum_number='2' maximum_number='8'/>
+		<monomer abbrev='HexA' minimum_number='0' maximum_number='2'/>
+		<monomer abbrev='MeHexA' minimum_number='0' maximum_number='0'/>
+		<monomer abbrev='HexNAc' minimum_number='0' maximum_number='0'/>
+		<monomer abbrev='NeuNAc' minimum_number='0' maximum_number='0'/>
+		<monomer abbrev='NeuNGc' minimum_number='0' maximum_number='0'/>
+		<monomer abbrev='Hex*NAc' minimum_number='0' maximum_number='0'/>
+		<monomer abbrev='Neu*NAc' minimum_number='0' maximum_number='0'/>
+		<monomer abbrev='Neu*NGc' minimum_number='0' maximum_number='0'/>
+	</residue_list>
+</search_config>

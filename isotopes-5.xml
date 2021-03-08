@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE table_of_isotopes SYSTEM "table_of_isotopes.dtd">
+
+<table_of_isotopes>
+
+    <chemical_element atomic_number='1' name='labeled H' id='*H' abundant_isotopes='1' pseudo='true'>
+        <isotope symbol='2H' mass='2.014101779' abundance='1.0'/>
+        <isotope symbol='1H' mass='1.007825035' abundance='0.0'/>
+        <isotope symbol='3H' mass='3.01604927' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='6' name='labeled C' id='*C' abundant_isotopes='1' pseudo='true'>
+        <isotope symbol='13C' mass='13.00335483' abundance='1.0'/>
+        <isotope symbol='12C' mass='12.0' abundance='0.0'/>
+        <isotope symbol='14C' mass='14.00324198' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='7' name='labeled N' id='*N' abundant_isotopes='1' pseudo='true'>
+        <isotope symbol='15N' mass='15.00011' abundance='1.0'/>
+        <isotope symbol='14N' mass='14.00307' abundance='0.0'/>
+        <isotope symbol='13N' mass='13.0057386' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='8' name='labeled O' id='*O' abundant_isotopes='1' pseudo='true'>
+        <isotope symbol='18O' mass='17.9991603' abundance='1.0'/>
+        <isotope symbol='16O' mass='15.99491' abundance='0.0'/>
+        <isotope symbol='17O' mass='16.9991312' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='1' name='Hydrogen' id='H' abundant_isotopes='2' pseudo='false'>
+        <isotope symbol='1H' mass='1.007825035' abundance='0.999885'/>
+        <isotope symbol='2H' mass='2.014101779' abundance='0.000115'/>
+        <isotope symbol='3H' mass='3.01604927' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='2' name='Helium' id='He' abundant_isotopes='2' pseudo='false'>
+        <isotope symbol='4He' mass='4.00260325' abundance='0.9999986'/>
+        <isotope symbol='3He' mass='3.01602931' abundance='0.000134'/>
+        <isotope symbol='5He' mass='5.0' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='3' name='Lithium' id='Li' abundant_isotopes='2' pseudo='false'>
+        <isotope symbol='7Li' mass='7.016003' abundance='0.9241'/>
+        <isotope symbol='6Li' mass='6.0151214' abundance='0.0759'/>
+        <isotope symbol='8Li' mass='8.022486' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='4' name='Beryllium' id='Be' abundant_isotopes='1' pseudo='false'>
+        <isotope symbol='9Be' mass='9.0121822' abundance='1.0'/>
+        <isotope symbol='10Be' mass='10.013534' abundance='0.0'/>
+        <isotope symbol='7Be' mass='7.016929' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='5' name='Boron' id='B' abundant_isotopes='2' pseudo='false'>
+        <isotope symbol='11B' mass='11.0093054' abundance='0.8022'/>
+        <isotope symbol='10B' mass='10.0129369' abundance='0.1978'/>
+        <isotope symbol='8B' mass='8.024607' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='6' name='Carbon' id='C' abundant_isotopes='2' pseudo='false'>
+        <isotope symbol='12C' mass='12.0' abundance='0.9889'/>
+        <isotope symbol='13C' mass='13.00335483' abundance='0.0111'/>
+        <isotope symbol='14C' mass='14.00324198' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='7' name='Nitrogen' id='N' abundant_isotopes='2' pseudo='false'>
+        <isotope symbol='14N' mass='14.00307' abundance='0.99632'/>
+        <isotope symbol='15N' mass='15.00011' abundance='0.00368'/>
+        <isotope symbol='13N' mass='13.0057386' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='8' name='Oxygen' id='O' abundant_isotopes='3' pseudo='false'>
+        <isotope symbol='16O' mass='15.99491' abundance='0.99757'/>
+        <isotope symbol='18O' mass='17.9991603' abundance='0.00205'/>
+        <isotope symbol='17O' mass='16.9991312' abundance='0.00038'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='9' name='Fluorine' id='F' abundant_isotopes='1' pseudo='false'>
+        <isotope symbol='19F' mass='18.99840322' abundance='1.0'/>
+        <isotope symbol='18F' mass='18.0009380' abundance='0.0'/>
+        <isotope symbol='17F' mass='17.0' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='10' name='Neon' id='Ne' abundant_isotopes='3' pseudo='false'>
+        <isotope symbol='20Ne' mass='19.9924401759' abundance='0.9048'/>
+        <isotope symbol='22Ne' mass='21.99138551' abundance='0.0925'/>
+        <isotope symbol='21Ne' mass='20.99384674' abundance='0.0027'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='11' name='Sodium' id='Na' abundant_isotopes='1' pseudo='false'>
+        <isotope symbol='23Na' mass='22.9897677' abundance='1.0'/>
+        <isotope symbol='22Na' mass='21.994437' abundance='0.0'/>
+        <isotope symbol='24Na' mass='23.9909633' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='12' name='Magnesium' id='Mg' abundant_isotopes='3' pseudo='false'>
+        <isotope symbol='24Mg' mass='23.9850423' abundance='0.7899'/>
+        <isotope symbol='26Mg' mass='25.9825937' abundance='0.1101'/>
+        <isotope symbol='25Mg' mass='24.9858374' abundance='0.1'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='13' name='Aluminum' id='Al' abundant_isotopes='1' pseudo='false'>
+        <isotope symbol='27Al' mass='26.9815386' abundance='1.0'/>
+        <isotope symbol='26Al' mass='25.986892' abundance='0.0'/>
+        <isotope symbol='29Al' mass='28.980446' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='14' name='Silicon' id='Si' abundant_isotopes='3' pseudo='false'>
+        <isotope symbol='28Si' mass='27.97693' abundance='0.922297'/>
+        <isotope symbol='29Si' mass='28.97649' abundance='0.046832'/>
+        <isotope symbol='30Si' mass='29.9737707' abundance='0.030872'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='15' name='Phosphorous' id='P' abundant_isotopes='1' pseudo='false'>
+        <isotope symbol='31P' mass='30.973762' abundance='1.0'/>
+        <isotope symbol='32P' mass='31.973615' abundance='0.0'/>
+        <isotope symbol='33P' mass='32.971725' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='16' name='Sulfur' id='S' abundant_isotopes='3' pseudo='false'>
+        <isotope symbol='32S' mass='31.9720707' abundance='0.9493'/>
+        <isotope symbol='34S' mass='33.96786665' abundance='0.0429'/>
+        <isotope symbol='33S' mass='32.97145843' abundance='0.0076'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='17' name='Chlorine' id='Cl' abundant_isotopes='2' pseudo='false'>
+        <isotope symbol='35Cl' mass='34.96885272' abundance='0.7578'/>
+        <isotope symbol='37Cl' mass='36.96590262' abundance='0.2422'/>
+        <isotope symbol='36Cl' mass='35.9683069' abundance='0.0'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='18' name='Argon' id='Ar' abundant_isotopes='3' pseudo='false'>
+        <isotope symbol='40Ar' mass='39.9623837' abundance='0.996003'/>
+        <isotope symbol='36Ar' mass='35.96754552' abundance='0.003365'/>
+        <isotope symbol='38Ar' mass='37.9627325' abundance='0.000632'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='19' name='Potassium' id='K' abundant_isotopes='3' pseudo='false'>
+        <isotope symbol='39K' mass='38.9637074' abundance='0.932581'/>
+        <isotope symbol='41K' mass='40.9618254' abundance='0.067302'/>
+        <isotope symbol='40K' mass='39.9639992' abundance='0.000117'/>
+    </chemical_element>
+
+    <chemical_element atomic_number='20' name='Calcium' id='Ca' abundant_isotopes='3' pseudo='false'>
+        <isotope symbol='40Ca' mass='39.9625906' abundance='0.96941'/>
+        <isotope symbol='44Ca' mass='43.9554806' abundance='0.02086'/>
+        <isotope symbol='42Ca' mass='41.9586176' abundance='0.00647'/>
+    </chemical_element>
+
+</table_of_isotopes>
+

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!ELEMENT table_of_isotopes (chemical_element+)>
+
+<!ELEMENT chemical_element (isotope+)>
+
+<!ATTLIST chemical_element
+    atomic_number      CDATA    #REQUIRED
+    name               CDATA    #REQUIRED
+    id                 ID       #REQUIRED
+    abundant_isotopes  CDATA    #REQUIRED
+>
+
+<!ELEMENT isotope EMPTY>
+
+<!ATTLIST isotope
+    symbol     CDATA #REQUIRED
+    mass       CDATA #REQUIRED
+    abundance  CDATA #REQUIRED
+>

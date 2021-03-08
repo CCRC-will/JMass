@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!ELEMENT residue_defs (monomer+, derivative+)>
+
+<!ELEMENT monomer (component+)>
+
+<!ATTLIST monomer
+    name           CDATA    #REQUIRED
+    abbrev         CDATA    #REQUIRED
+    e_sites        CDATA    #REQUIRED
+    a_sites        CDATA    #REQUIRED
+>
+
+<!ELEMENT component EMPTY>
+
+<!ATTLIST component
+	symbol			CDATA #REQUIRED
+	number			CDATA #REQUIRED
+>
+
+<!ELEMENT derivative  (component+)>
+
+<!ATTLIST derivative
+    name           CDATA    #REQUIRED
+    abbrev         CDATA    #REQUIRED
+    type           CDATA    #REQUIRED
+>
