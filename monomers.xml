@@ -124,12 +124,6 @@
 	<derivative name='none' abbrev='none'  type='e'>
 		<component symbol='H' number='1'/>
 	</derivative>
-	
-	<monomer name='acetate' abbrev='Ac' e_sites='-1' a_sites='-1'>
-		<component symbol='H' number='2'/>
-		<component symbol='C' number='2'/>
-		<component symbol='O' number='1'/>
-	</monomer>
 
 	<derivative name='methyl' abbrev='Me'  type='e'>
 		<component symbol='H' number='3'/>
